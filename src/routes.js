@@ -16,3 +16,6 @@ export default (
 )
 
 // a Route generates an object || params are assigned to that object when we pass a component
+
+// react-router-dom automatically passes down a couple handy props into the routeable components || one of them is called match || match is an object with a bunch of useful information || one of the properties on match is called params || params is where we can see the value of any route parameters
+// our route parameter above is called class || therefore we can access it by using this.props.match.params.class
